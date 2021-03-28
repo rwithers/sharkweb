@@ -1,0 +1,146 @@
+.App {
+  position: relative;
+  background-color: #808080;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.App-logo-container {
+  float: left;
+  margin-left: 2%;
+}
+
+.App-logo {
+  margin-top: 14px;
+  margin-left: 2%;
+  height: 86px;
+  width: 191px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #B4B4B4;
+  height: 60px;
+  width: 100vw;
+  justify-content: left;
+  align-items: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header-menu {
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-left: 50px;
+  padding-top: 27px;
+}
+
+.App-header-menu-link {
+  padding-right: 20px;  
+  color: #1b5eab;
+}
+
+.App-listen {
+  height: 28px;
+  margin-left: 10%;
+  background:  #FAFAFA;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-topline {
+  display: inline-flex;
+  width: 95vw; 
+  height: 1px;
+  background: #3C3C3C;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-line {
+  display: inline-flex;
+  width: 95vw; 
+  height: 3px;
+  margin-top: 50px;
+  background: #3C3C3C;
+  align-items: center;
+  justify-content: center;
+}
+  
+.App-footer {
+  position: absolute;
+  height: 215px;
+  width: 98%;
+  padding-left: 2%;
+  padding-right: 0px;
+  color: #C8C8C8;
+  background: #3C3C3C;
+  bottom: 0;
+}
+
+.App-footer-content {
+  display: flex;
+  align-items: flex-start;
+  width: 100vw;
+  line-height: 0.5;
+  bottom: 0;
+}
+
+.footer-column-left {
+  float: left;
+  width: 35vw;
+}
+
+.footer-column-middle {
+  float: left;
+  width: 30vw;
+}
+
+.footer-column-right {
+  line-height: 0.25;
+  float: left;
+  width: 35vw;
+}
+
+.social-media-links {
+  display: flex;
+  padding-top: 20px;
+}
+
+.social-media-icon {
+  margin-right: 15px;
+  color: #C8C8C8;
+}
+
+.subscribe-form {
+  /* I've used padding so you can see the edges of the elements. */
+  padding:2px;
+}
+
+.subscribe-input {
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+}
+
+.subscribe-button {
+  /* Just a little styling to make it pretty */
+  background:#808080;
+  color:white;
+  border: none;
+}
+
+.copyright-statement {
+  display: flex;
+  float: left;
+  margin: 28px;
+}
+
+.listen-widget {
+  width: 100%;
+  height: 100;
+}
