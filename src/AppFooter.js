@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { Link } from "react-router-dom";
+import EmailSubscribeForm from './EmailSubscribeForm.js';
 
 library.add(fab, faFacebook)
 
@@ -25,15 +27,12 @@ function AppFooter() {
             <p><a className="App-link" href="">Careers</a></p>
             <p><a className="App-link" href="">Advertising</a></p> */}
             <p><a className="App-link" href="https://publicfiles.fcc.gov/fm-profile/kyrk" target="_blank" rel="noopener noreferrer">Public Files</a></p>    
-            <p><a className="App-link" href="">Announcements</a></p> 
+            <p><Link className="App-link" to="/applications">FCC Applications</Link></p> 
           </div>
 
           <div className="footer-column-right">
           <p>subscribe:</p>
-              <form className="subscribe-form">
-                <input className="subscribe-input" placeholder="email"/>
-                <button className="subscribe-button">Join</button>
-              </form>
+            <EmailSubscribeForm/>
             <div className="social-media-links">
               <a href="https://www.facebook.com/1065theshark/"><FontAwesomeIcon className="social-media-icon" icon={['fab', 'facebook']} size="lg" /></a>
               <a href="https://twitter.com/1065theshark"><FontAwesomeIcon className="social-media-icon" icon={['fab', 'twitter']} size="lg" /></a>
@@ -45,7 +44,7 @@ function AppFooter() {
         </div>
 
         <div className="copyright-statment">
-               <p><i>A Withers Family Texas Holdings Company. &#169; 2020</i></p>
+               <p><i>A Withers Family Texas Holdings Company. &#169; 2021</i></p>
         </div>
 
       </div>

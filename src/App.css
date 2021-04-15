@@ -1,6 +1,16 @@
+/* Color Theme Swatches in Hex */
+.Metal-Sharks-1-hex { color: #042042; }
+.Metal-Sharks-2-hex { color: #3E8FBF; }
+.Metal-Sharks-3-hex { color: #30ACC7; }
+.Metal-Sharks-4-hex { color: #36CCA7; }
+.Metal-Sharks-5-hex { color: #53FFE8; }
+
 .App {
   position: relative;
   background-color: #808080;
+  background-image: url("./assets/ccbay-dawn.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
   z-index: 0;
@@ -20,7 +30,7 @@
 }
 
 .App-header {
-  background-color: #B4B4B4;
+  background-color: #30ACC7;;
   height: 60px;
   width: 100vw;
   justify-content: left;
@@ -78,8 +88,8 @@
   width: 98%;
   padding-left: 2%;
   padding-right: 0px;
-  color: #C8C8C8;
-  background: #3C3C3C;
+  color: #36CCA7;
+  background: #042042;
   bottom: 0;
 }
 
@@ -87,8 +97,15 @@
   display: flex;
   align-items: flex-start;
   width: 100vw;
+  width: 95vw;
   line-height: 0.5;
   bottom: 0;
+}
+
+.ListenLive {
+  float: right;
+  margin-top: 5px;
+  margin-right: 4vw;
 }
 
 .footer-column-left {
@@ -104,11 +121,9 @@
 .footer-column-right {
   line-height: 0.25;
   float: left;
-  width: 35vw;
 }
 
 .social-media-links {
-  display: flex;
   padding-top: 20px;
 }
 
@@ -143,4 +158,42 @@
 .listen-widget {
   width: 100%;
   height: 100;
+}
+
+.postContainer {
+  padding-top: 10px;
+}
+
+.post {
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 60vw; 
+  margin: auto;
+  background-color: #ffffff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.announcementTitle {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 4px;
+  height: 25px;
+  color: #ffffff;
+  background-color: #1b5eab;
+}
+
+.announcementTitleDisplay {
+  width: 100%;
+  padding-left: 25px;
+}
+
+.announcementText {
+  padding: 5px;
+  padding-left: 25px;
+}
+
+.urlText {
+  padding: 25px;
 }
