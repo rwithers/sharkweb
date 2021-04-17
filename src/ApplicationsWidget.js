@@ -11,14 +11,14 @@ function ApplicationsWidget () {
                 <div className='post'>
                     <div className='announcementTitle'>
                         <div className='announcementTitleDisplay'>
-                        {announcement.title}    {announcement.posted}
+                        {announcement.title} &nbsp; &nbsp; &nbsp; <i>updated on:</i> {announcement.posted}   
                         </div>
                     </div>
                     <div className='announcementText'>
-                        {announcement.announcement}
+                        {announcement.announcement} <a href={announcement.url} target="_blank" rel="noopener noreferrer">Public Files</a>.
                     </div>
                     <div className='urlText'>
-                        <a classname="" href={announcement.url} target="_blank" rel="noopener noreferrer">{announcement.urlTitle}</a>
+                        <a classname="" href={announcement.appurl} target="_blank" rel="noopener noreferrer">{announcement.appurlTitle}</a>
                     </div>
                 </div>
             </div>
